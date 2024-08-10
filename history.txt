@@ -1,0 +1,689 @@
+    1  cat /etc/os-release
+    2  ls
+    3  pwd
+    4  whoiam
+    5  whoami
+    6  touch sajjad.txt
+    7  ls
+    8  ls l
+    9  ls -l
+   10  ls -lh
+   11  ls -t
+   12  ls -tlh
+   13  view sajjad.txt
+   14  vagrant halt
+   15  exit
+   16  cat .ssh/authorized_keys
+   17  man ls
+   18  logout
+   19  man grep
+   20  date
+   21  df
+   22  df -ah
+   23  df -h
+   24  cd bin
+   25  ls
+   26  ls -l
+   27  ls -lh
+   28  ls -lha
+   29  pwd
+   30  cd ..
+   31  ls
+   32  cd ubuntu/
+   33  ls
+   34  cd ..
+   35  ls
+   36  ls -lh
+   37  cd home
+   38  cd /home/ubuntu/
+   39  ls
+   40  mkdir ubuntu
+   41  cd..
+   42  cd ..
+   43  ls
+   44  cd ~
+   45  ls
+   46  pwd
+   47  cd ..
+   48  cd vagrant/
+   49  ls
+   50  mkdir ubutnu
+   51  ls
+   52  touch ubuntu_file.txt
+   53  ls
+   54  vim
+   55  vim ubuntu_file.txt
+   56  cat ubuntu_file.txt
+   57  tail ubuntu_file.txt
+   58  head ubuntu_file.txt
+   59  pw
+   60  pwd
+   61  mkdir 1
+   62  cd 1
+   63  mkdir 2 3
+   64  ls
+   65  cd 2
+   66  cd ..
+   67  cd 2
+   68  mkdie.txt
+  132  tail -f ubuntu_file.txt
+  133  ls
+  134  cp -r 1/ ubuntu/
+  135  ls
+  136  cd ubuntu
+  137  ls
+  138  ls l
+  139  ls -l
+  140  cd ..
+  141  ls
+  142  cd 1
+  143  ls
+  144  cd ..
+  145  ls
+  146  ls -l
+  147  cd ubuntu/
+  148  ls
+  149  cd ..
+  150  ls
+  151  ls -lh
+  152  rm -r ubuntu
+  153  ls -l
+  154  cd ubuntu/
+  155  cd ubuntu
+  156  cd ubutnu
+  157  cd ..
+  158  rm ubutnu
+  159  rm -r ubutnu
+  160  ls
+  161  ls -l
+  162  mkdir 2
+  163  ls -l
+  164  mv 1/ 2/
+  165  ls
+  166  cd 2
+  167  ls
+  168  mv 1 /
+  169  ls
+  170  cd ..
+  171  ls
+  172  pwd
+  173  ls -l
+  174  cd 2
+  175  ls -l
+  176  mv 1/ /home/vagrant/
+  177  ls -l
+  178  cd ..
+  179  ls -l
+  180  sudo su
+  181  ls -l
+  182  clea
+  183  clear
+  184  ls -l
+  185  cat ubuntu_file.txt
+  186  wc ubuntu_file.txt
+  187  ls
+  188  ls -l
+  189  logout
+  190  ls -la
+  191  ls -l
+  192  cd 1/
+  193  ls -l
+  194  cd 2/
+  195  cd ..
+  196  cd 2
+  197  ls
+  198  ls -l
+  199  cd ..
+  200  ls -l
+  201  mv sajjad.txt 2/
+  202  ls -l
+  203  cd 2
+  204  ls -l
+  205  mv sajjad.txt sajjad1.txt
+  206  ls -l
+  207  vim sajjad1.txt
+  208  cat sajjad1.txt
+  209  cp sajjad1.txt ..
+  210  cd..
+  211  cd ..
+  212  ls -l
+  213  cat sajjad1.txt
+  214  mv sajjad1.txt sajjad.txt
+  215  ls -l
+  216  cat sajjad.txt
+  217  clear
+  218  df -l
+  219  cd ver
+  220  cd etc
+  221  cd home
+  222  cd~
+  223  cd ~
+  224  ls -l
+  225  cd ..
+  226  ls -l
+  227  cd ~
+  228  cd /
+  229  ls -l
+  230  cd etc
+  231  ls -l
+  232  cd ..
+  233  ls -l
+  234  cd sys
+  235  ls -l
+  236  cd
+  237  cd /
+  238  ls
+  239  ls -l
+  240  ping 8.8.8.8
+  241  ping 8.8.8.8 --5
+  242  ping 8.8.8.8 -5
+  243  ping -5 8.8.8.8
+  244  ping -c-5 8.8.8.8
+  245  ping 10.6.10099
+  246  ping 10.6.100.99
+  247  ping -c -510.6.100.99
+  248  ping -c -5 10.6.100.99
+  249  ping?
+  250  ping ?
+  251  ping
+  252  ping -5 10.6.100.99
+  253  ping -c5 10.6.100.99
+  254  ping -c2 10.6.100.99
+  255  echo this is my file
+  256  cd ..
+  257  logout
+  258  ls -l
+  259  cat sajjad.txt
+  260  echo This is my first Linux
+  261  echo This is my first Linux sajjad.txt
+  262  echo This is my first Linux > sajjad.txt
+  263  cat sajjad.txt
+  264  ls -la
+  265  ls -l
+  266  touch fruits.txt
+  267  vin fruits.txt
+  268  vim fruits.txt
+  269  cat fruits.txt
+  270  touch vegetables.txt
+  271  vim vegetables.txt
+  272  cat vegetables.txt
+  273  vim fruits.txt
+  274  grep "fruit" fruits.txt
+  275  grep "berries" fruits.txt
+  276  grep -i "berries" fruits.txt
+  277  grep -i "fruits" fruits.txt
+  278  grep -i "fruit" fruits.txt
+  279  grep -v "fruit" fruits.txt
+  280  grep -n "fruit" fruits.txt
+  281  grep -n "berries" fruits.txt
+  282  grep -n -i "berries" fruits.txt
+  283  grep -c "berries" fruits.txt
+  284  grep -c "fruit" fruits.txt
+  285  grep -c "berries" fruits.txt
+  286  grep -c "berries" fruits.txt
+  287  cat fruits.txt
+  288  grep -c "berries" fruits.txt
+  289  cat fruits.txt
+  290  grep -c -i "berries" fruits.txt
+  291  grep "berries" fruits.txt
+  292  grep -w "berries" fruits.txt
+  293  ls -lrt
+  294  touch more-fruit.txt
+  295  vim more-fruit.txt
+  296  cat more-fruit.txt
+  297  grep -l "fruit" *
+  298  grep -L "fruit" *
+  299  echo $SHELL
+  300  sudo su
+  301  cat access.log
+  302  cd bin
+  303  pwd
+  304  cd/
+  305  cd /
+  306  ls -l
+  307  cat access.log
+  308  find access.log
+  309  whoami
+  310  sudo su
+  311  logout
+  312  ls -l
+  313  ls -lh
+  314  grep -i "fruit" fruits.txt
+  315  grep -w "fruit" fruits.txt
+  316  ls -l
+  317  more vegetables.txt
+  318  less vegetables.txt
+  319  vim sajjad.txt
+  320  less sajjad.txt
+  321  more sajjad.txt
+  322  grep "thi is" sajjad.txt
+  323  grep -i "thi is" sajjad.txt
+  324  grep -i "this is" sajjad.txt
+  325  grep "thi" sajjad.txt
+  326  grep "pakistan" sajjad.txt
+  327  grep -n "pakistan" sajjad.txt
+  328  logout
+  329  git --status
+  330  cat /etc/os-release
+  331  sudo apt-get update
+  332  sudo install git
+  333  sudo apt-get install git
+  334  git --version
+  335  git clone
+  336  ll
+  337  ls -l
+  338  mkdir git1
+  339  cd git1
+  340  ll
+  341  get clone git@github.com:asajjadrizvi/MyRepo1.git
+  342  git clone git@github.com:asajjadrizvi/MyRepo1.git
+  343  ls -al ~/.ssh
+  344  cd~
+  345  cd ~
+  346  ls -al ~/.ssh
+  347  cd ./ssh
+  348  cd .ssh
+  349  ll
+  350  ssh-keygen -t rsa -b 4096 -C "sajjadrizvi@hotmail.com"
+  351  eval "$(ssh-agent -s)"
+  352  ssh-add ~/.ssh/id_rsa
+  353  cat ~/.ssh/id_rsa.pub
+  354  ssh -T git@github.com
+  355  ssh -T sajjadrizvi@hotmail.com
+  356  ping 8.8.8.8 -c3
+  357  ssh -T sajjadrizvi@hotmail.com
+  358  sudo ssh -T sajjadrizvi@hotmail.com
+  359  cd ~
+  360  ssh -T sajjadrizvi@hotmail.com
+  361  ssh -T git@github.com
+  362  ping github.com -c5
+  363  ping hotmail.com -c5
+  364  ping 8.8.8.8
+  365  ping google.com
+  366  sudo nano /etc/resolv.conf
+  367  ping google.com
+  368  sudo systemctl restart network-manager
+  369  sudo sudo systemctl restart network-manager
+  370  sudo systemctl restart network-manager
+  371  sudo install network-manager
+  372  sudo apt-get install network-manager
+  373  ping google.com
+  374  sudo systemctl restart network-manager
+  375  ping google.com -c4
+  376  ping hotmail.com -c4
+  377  ssh -T git@github.com
+  378  ssh -T sajjadrizvi@hotmail.com
+  379  git clone sajjadrizvi@hotmail.com:sajjadrizvi/repository.git
+  380  ls -l
+  381  cd git1/
+  382  ls
+  383  git clone sajjadrizvi@hotmail.com:sajjadrizvi/repository.git
+  384  git clone sajjadrizvi@hotmail.com:sajjadrizvi/MyRepo1.git
+  385  cd ~
+  386  cd .ssh
+  387  ls -l
+  388  cat ~/.ssh/id_rsa.pub
+  389  cat ~/.ssh
+  390  ls -al~/.ssh
+  391  ls -al ~/.ssh
+  392  cat id_rsa
+  393  cat id_rsa.pub
+  394  ssh -T git@github.com
+  395  cd /
+  396  ls -l
+  397  cd home
+  398  ls -l
+  399  cd P
+  400  cd ~
+  401  ls
+  402  cd git1
+  403  ls -l
+  404  git sttus
+  405  git status
+  406  git clone sajjadrizvi@hotmail.com:sajjadrizvi/MyRepo1.git
+  407  ping github.git -c4
+  408  ping github.com -c4
+  409  git clone sajjadrizvi@hotmail.com:asajjadrizvi/MyRepo1.git
+  410  cd ~
+  411  logout
+  412  restart
+  413  shutdown -f
+  414  sudo shutdown -f
+  415  sudo shutdown -c
+  416  logout
+  417  logout
+  418  git
+  419  git --version
+  420  ls
+  421  cd git1
+  422  ls
+  423  cd my
+  424  cd MyRepo1/
+  425  ls
+  426  cat sajjad.txt
+  427  git add .
+  428  git status
+  429  git commit
+  430  git config --global user.name sajjadrizvi
+  431  git config --global user.email sajjadrizvi@hotmail.com
+  432  git commit
+  433  git status
+  434  logout
+  435  vagrant halt
+  436  logout
+  437  ls
+  438  whoami
+  439  pwd
+  440  uname
+  441  uname -a
+  442  wc
+  443  cat 1
+  444  cat 1/
+  445  ls
+  446  cd 1
+  447  ls
+  448  touch 1.txt
+  449  ll
+  450  ls
+  451  echo "Hello World!" > 1.txt
+  452  cat 1.txt
+  453  uniq --help
+  454  uniq 1.txt
+  455  uniq 1.txt | hello
+  456  cat etc/passwd
+  457  cat /etc/passwd
+  458  fs
+  459  hostname
+  460  ls -lah
+  461  cd ..
+  462  ls -lah
+  463  du -sh 1.txt
+  464  du -sh sajjad.txt
+  465  du sajja
+  466  du -sh *
+  467  du -sh .
+  468  du -sh *
+  469  ps
+  470  sudo apt get install
+  471  sudo apt get install apache2
+  472  sudo apt-get install apache2
+  473  service apache2
+  474  service apache2 start
+  475  sudo service apache2 start
+  476  sudo service apache2 status
+  477  ps -aux
+  478  systemctl
+  479  ps -aux | grep apache2
+  480  ps -aux
+  481  clear
+  482  ps -aux
+  483  df -h
+  484  df -hT
+  485  lsblk
+  486  ip a as
+  487  ip a s
+  488  ip a show
+  489  ip a
+  490  ip
+  491  ping
+  492  ping 8.8.8.8
+  493  ping 8.8.8.8 c5
+  494  ping 8.8.8.8 C5
+  495  ping 8.8.8.8 -c5
+  496  df
+  497  df -h
+  498  df -Ah
+  499  df -ah
+  500  ps -aux
+  501  ps -L 1023
+  502  ps fG 1023
+  503  ps -fG 1023
+  504  ps -fG www-data
+  505  ll
+  506  ss
+  507  ss --help
+  508  ss -h
+  509  ss -m
+  510  ss -4
+  511  ss -6
+  512  ip
+  513  ip -4
+  514  ip address
+  515  ip add
+  516  dns
+  517  ip dns
+  518  ip -dns
+  519  exit
+  520  ip add
+  521  logout
+  522  ip add
+  523  ping google.com -c5
+  524  ping 8.8.8.8 -c5
+  525  cd etc
+  526  cd home
+  527  cd /
+  528  cd etc
+  529  ls -l
+  530  grep net
+  531  ls -l
+  532  findnet *
+  533  find net*
+  534  cd network
+  535  ls -la
+  536  cat if-doen.d
+  537  cat if-down.d
+  538  cat interfaces
+  539  cat /etc/netplan/
+  540  cd ..
+  541  cd netplan/
+  542  ls -la
+  543  ls -lh
+  544  cd ..
+  545  cd network
+  546  ls
+  547  cd if-up.d
+  548  ls -la
+  549  ls -lh
+  550  cd ethtool
+  551  cat ethtool
+  552  clear && echo $(ip -o -4 route get 8.8.8.8 | sed -nr 's/.*dev ([^\ ]+).*/\1/p')
+  553  cd~
+  554  cd ~
+  555  clear && echo $(ip -o -4 route get 8.8.8.8 | sed -nr 's/.*dev ([^\ ]+).*/\1/p')
+  556  sudo nano /etc/network/interfaces
+  557  cd /etc/network
+  558  ls
+  559  ls -la
+  560  ls -lah
+  561  sudo nano /etc/network/netplan
+  562  cd ..
+  563  ls -ls
+  564  cd network
+  565  ls -la
+  566  cd if-down.d/
+  567  ls -la
+  568  sudo lshw -class network
+  569  clear && echo $(ip -o -4 route get 8.8.8.8 | sed -nr 's/.*dev ([^\ ]+).*/\1/p')
+  570  sudo lshw -class network
+  571  cd if-down.d/
+  572  cd ~
+  573  ls
+  574  clear
+  575  sudo ip addr add 10.102.66.200/24 dev enp0s3
+  576  ip link set dev enp0s3
+  577  sudo ip link set dev enp0s3
+  578  sudo ip link set dev enp0s3 up
+  579  ip add
+  580  ping 10.102.66.200 -c5
+  581  ping localhost
+  582  sudo ip route add default via 10.102.66.1
+  583  ping 10.102.66.1 -c5
+  584  ip route show
+  585  nameserver
+  586  cat /etc/resolv.conf
+  587  vi /etc/resolv.conf
+  588  cat /etc/resolv.conf
+  589  man interfaces
+  590  interfaces --help
+  591  interfaces -h
+  592  cat /etc/network/interfaces
+  593  vi /etc/network/interfaces
+  594  sudo apt install ifupdown
+  595  nameservers
+  596  nameserver
+  597  ping google.com
+  598  ip s a
+  599  ip a s
+  600  logout
+  601  ip i
+  602  ip a s
+  603  man interfaces
+  604  interfaces --help
+  605  cat /etc/network/interfaces
+  606  ping google.com -c5
+  607  sudo ethtool enp03s
+  608  clear && echo $(ip -o -4 route get 8.8.8.8 | sed -nr 's/.*dev ([^\ ]+).*/\1/p')
+  609  sudo ethtool enp0s3
+  610  ip route show
+  611  ping 8.8.8.8
+  612  ping google.com -t
+  613  ping google.com -c5
+  614  clear
+  615  ls /etc/netplan
+  616  touch /etc/netplan/99_config.yaml
+  617  sudo touch /etc/netplan/99_config.yaml
+  618  sudo vim /etc/netplan/99_config.yaml
+  619  sudo cat /etc/netplan/99_config.yaml
+  620  sudo netplan apply
+  621  ip a s
+  622  ping google.com -t
+  623  ping google.com -c5
+  624  ip add show lo
+  625  systemd -resolve
+  626  systemd-resolve
+  627  /etc/resolv.conf -> ../run/systemd/resolve/stub-resolv.conf
+  628  cat /etc/resolv.conf
+  629  sudo cat /etc/netplan/99_config.yaml
+  630  sudo vim /etc/netplan/99_config.yaml
+  631  network reset
+  632  networks
+  633  networks restart
+  634  network restart
+  635  sudo netplan apply
+  636  sudo vim /etc/netplan/99_config.yaml
+  637  sudo netplan apply
+  638  sudo vim /etc/netplan/99_config.yaml
+  639  sudo netplan apply
+  640  exit
+  641  ping google.com -c5
+  642  history
+  643  cat /etc/resolv.conf
+  644  vim /etc/resolv.conf
+  645  sudo vim /etc/resolv.conf
+  646  cat /etc/resolv.conf
+  647  ping google.com -c5
+  648  ping salaamtakaful.com -c4
+  649  apache2
+  650  sudo cat /etc/apache2/apache2.conf
+  651  less /etc/apache2/apache2.conf
+  652  apache2
+  653  grep DefaultRuntimeDir /etc/apache2/apache2.conf
+  654  grep DefaultRuntimeDir /etc/apache2/apache2.conf -c
+  655  grep DefaultRuntimeDir /etc/apache2/apache2.conf -n
+  656  sudo vim /etc/apache2/apache2.conf
+  657  apache2
+  658  mkdir /etc/apache2/sajjad
+  659  sudo mkdir /etc/apache2/sajjad
+  660  apache2
+  661  cd /etc/apache2/sajjad
+  662  ls
+  663  ll
+  664  cd ..
+  665  ls
+  666  cat magic
+  667  clear
+  668  cd ~
+  669  ping google.com -c5
+  670  ps
+  671  ss
+  672  fs
+  673  lf
+  674  sudo fs
+  675  sudo get install fs
+  676  ls
+  677  sudo su
+  678  cd khel-kamao/
+  679  git status
+  680  df
+  681  ip add
+  682  cd ..
+  683  history
+  684  sudo get install fs
+  685  clear
+  686  cat history
+  687  cp history
+  688  cp history /khel-kamao
+  689  historyr 2.1
+   69  mkdir 2.2 2.3
+   70  ls
+   71  cd ..
+   72  ls
+   73  cd 3
+   74  mkdir 3.1 3.2 3.3
+   75  ls
+   76  cd /
+   77  ls
+   78  cd home
+   79  ls
+   80  cd vagrant/
+   81  ls
+   82  cp ubuntu_file.txt /1 /2 /2.1
+   83  cp ubuntu_file.txt /1 /2
+   84  pwd
+   85  ls
+   86  cd 1
+   87  ls
+   88  cd 2
+   89  ls
+   90  cd ..
+   91  l
+   92  ll
+   93  ls -h
+   94  cd ubutnu/
+   95  ls
+   96  cd ..
+   97  cd 1
+   98  ls
+   99  cd ..
+  100  ls
+  101  cp ubuntu_file.txt /1
+  102  sudo cp ubuntu_file.txt /1
+  103  cd 1
+  104  ls
+  105  ll
+  106  ls
+  107  clear
+  108  cd ..
+  109  ls
+  110  cat ubuntu_file.txt
+  111  cp ubuntu_file.txt 1/
+  112  cd 1
+  113  ls
+  114  rm ubuntu_file.txt
+  115  ls
+  116  rm 2
+  117  rm -r 2
+  118  ls
+  119  rm -r 3
+  120  ls
+  121  cd ..
+  122  ls
+  123  grep
+  124  grep --help
+  125  ls
+  126  cat ubuntu_file.txt
+  127  echo "HelloWorld"
+  128  echo "Hello World"
+  129  echo "Hello World" > ubuntu_file.txt
+  130  cat ubuntu_file.txt
+  131  tail ubuntu_fil

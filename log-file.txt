@@ -7,3 +7,5 @@ Today is 09-08-24 and files has been updated as of today at 9:25am
 
 I am trying to clone this repository to GitHub now.
 
+Today is Saturday and onsite class of DevOps in N.E.D 
+
