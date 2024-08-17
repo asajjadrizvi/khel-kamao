@@ -13,4 +13,4 @@ I am chaning this file today 17-08-24- Want to see if it's working
 
 I have made a new branch and now testing the push and commit to that branch
 
-
+Now, I edited this file on Github and will pull this to my vagrant machine.
