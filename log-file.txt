@@ -14,3 +14,6 @@ I am chaning this file today 17-08-24- Want to see if it's working
 I have made a new branch and now testing the push and commit to that branch
 
 Now, I edited this file on Github and will pull this to my vagrant machine.
+
+Good that I have learnt how to use git and I am thankful to almighty Allah on this
+Today 21-08-24  ----  Editing on Github then pulling changes to local.
