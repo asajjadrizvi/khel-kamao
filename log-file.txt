@@ -9,3 +9,4 @@ I am trying to clone this repository to GitHub now.
 
 Today is Saturday and onsite class of DevOps in N.E.D 
 
+This is 21st Aug, Wednesday and I am working on DevOps engineering course
